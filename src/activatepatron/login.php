@@ -5,7 +5,7 @@ date_default_timezone_set("Europe/Stockholm");
 session_start();
 
 //210519 OpenID Connect framework(myits)
-require_once('/myits/vendor/autoload.php');
+require_once($_SERVER['DOCUMENT_ROOT'] .  '/myits/vendor/autoload.php');
 
 use Its\Sso\OpenIDConnectClient;
 use Its\Sso\OpenIDConnectClientException;
