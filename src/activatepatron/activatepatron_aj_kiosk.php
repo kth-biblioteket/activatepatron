@@ -3,7 +3,7 @@ header('Content-Type: application/json; charset=utf-8');
 require('config.php.inc'); //innehåller API-KEY.
 
 //inkluderar hjälpklass för mailfunktioner
-require_once('/activatepatron/PHPMailer/PHPMailerAutoload.php');
+require_once('/PHPMailer/PHPMailerAutoload.php');
 
 if (!isset($_SESSION)) {
 	session_start();
