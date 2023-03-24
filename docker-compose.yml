@@ -1,0 +1,21 @@
+version: "3.6"
+
+services:
+  activatepatron:
+    container_name: activatepatron
+    image: ghcr.io/kth-biblioteket/activatepatron:${REPO_TYPE}
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.activatepatron.rule=Host(`${DOMAIN_NAME}`) && PathPrefix(`${PATHPREFIX}`)"
+      - "traefik.http.routers.activatepatron.entrypoints=websecure"
+      - "traefik.http.routers.activatepatron.tls=true"
+      - "traefik.http.routers.activatepatron.tls.certresolver=myresolver"
+    volumes:
+      - /local/docker/activatepatron/config.php.inc:/var/www/html/activatepatron/config.php.inc
+    networks:
+      - "apps-net"
+
+networks:
+  apps-net:
+    external: true

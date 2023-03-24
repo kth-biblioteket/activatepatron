@@ -1,0 +1,10 @@
+config.php
+config.php.inc
+*.env
+*.txt
+*.log
+*.csv
+*.xlsx
+Thumbs.db
+.DS_Store
+*.docx

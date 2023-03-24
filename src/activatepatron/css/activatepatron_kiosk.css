@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW-11eae22eb2aa823fbf05abc4cf01c042.woff2) format("woff2");
+    unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/mem5YaGs126MiZpBA-UN_r8OVuhpKKSTj5PW-3ba3e8d1c1c5117f98e5244712781159.woff2) format("woff2");
+    unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/mem5YaGs126MiZpBA-UN_r8OXuhpKKSTj5PW-91d4f626af66a11b5baffdf2f97f6ddf.woff2) format("woff2");
+    unicode-range: U+1F00-1FFF
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/mem5YaGs126MiZpBA-UN_r8OUehpKKSTj5PW-eaf5a09c563360f9c48288b539f20c23.woff2) format("woff2");
+    unicode-range: U+0370-03FF
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/mem5YaGs126MiZpBA-UN_r8OXehpKKSTj5PW-fdd62992828f56676b6299d266239952.woff2) format("woff2");
+    unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/mem5YaGs126MiZpBA-UN_r8OXOhpKKSTj5PW-bfae5c3ef80ec61ca609f93ccfabca4f.woff2) format("woff2");
+    unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw-8200f3daceb453809e0575364d73ca1f.woff2) format("woff2");
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a-a7b3bd8469f4e8078ca4533034d41ab9.woff2) format("woff2");
+    unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/mem8YaGs126MiZpBA-UFUZ0bf8pkAp6a-3e14c4fceaa0527b806d0774e4b3ed5c.woff2) format("woff2");
+    unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/mem8YaGs126MiZpBA-UFWZ0bf8pkAp6a-42902f5bb63ac1dd86d3575696e9ef87.woff2) format("woff2");
+    unicode-range: U+1F00-1FFF
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/mem8YaGs126MiZpBA-UFVp0bf8pkAp6a-e39d1b025668a1cbc229a8c50406b81c.woff2) format("woff2");
+    unicode-range: U+0370-03FF
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/mem8YaGs126MiZpBA-UFWp0bf8pkAp6a-2f576ebd220b72f27cc1f5241ead814b.woff2) format("woff2");
+    unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/mem8YaGs126MiZpBA-UFW50bf8pkAp6a-310db26833980fdf3643ba5e425c169d.woff2) format("woff2");
+    unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/mem8YaGs126MiZpBA-UFVZ0bf8pkAg-358d3070946a90b4960cd111154fdc12.woff2) format("woff2");
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/mem5YaGs126MiZpBA-UNirkOX-hpKKSTj5PW-f98f9cf9e6d5ea92c204805862da3ebb.woff2) format("woff2");
+    unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/mem5YaGs126MiZpBA-UNirkOVuhpKKSTj5PW-b1ed13e320ce8a20bcbc72d816a5b22c.woff2) format("woff2");
+    unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/mem5YaGs126MiZpBA-UNirkOXuhpKKSTj5PW-68ee61370a77859b0b1f560e6243f486.woff2) format("woff2");
+    unicode-range: U+1F00-1FFF
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/mem5YaGs126MiZpBA-UNirkOUehpKKSTj5PW-783d8cf7c332574b69fb7950f29da2e5.woff2) format("woff2");
+    unicode-range: U+0370-03FF
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/mem5YaGs126MiZpBA-UNirkOXehpKKSTj5PW-b707c3f59d12f325469ff2d2367e376a.woff2) format("woff2");
+    unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/mem5YaGs126MiZpBA-UNirkOXOhpKKSTj5PW-ea10852dd6f3c0a059695a402e9f6bb1.woff2) format("woff2");
+    unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw-a01def30f4398df303f818579d05f4ea.woff2) format("woff2");
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+}
+
+html,
+body {
+    margin: 0 auto;
+    height: 100%;
+    font-family: "Open Sans",Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background: white;
+}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "myits/openid-connect-client": "*"
+    }
+}
