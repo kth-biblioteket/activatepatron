@@ -28,7 +28,7 @@ if (!empty($_GET["lang"])) {
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<!-- KTH Styles -->
 		<!--link href="<?php echo $kth_www?>/css/kth-22cebcf8c708b27ad9c875474470c18b.css" rel="stylesheet"-->
-    	<link type="text/css" href="/kthstyle/kth.css" rel="stylesheet" />
+    	<link type="text/css" href="kthstyle/kth.css" rel="stylesheet" />
 		<link type="text/css" href="css/activatepatron.css?version=1" rel="stylesheet" />
 		<link type="text/css" href="css/activatepatron_kiosk.css?version=1" rel="stylesheet" />
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
