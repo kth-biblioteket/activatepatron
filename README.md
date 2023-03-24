@@ -38,7 +38,8 @@ docker compose up -d
 ## Features
 
 Aktiverar Alma-konto för studenter med KTH-konto
-*
+* Skapa pin
+* Välj default språk i Alma
 
 ## Contributing
 
