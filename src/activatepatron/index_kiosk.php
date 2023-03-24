@@ -1,5 +1,5 @@
 <?php
-require('config.php'); //innehåller API-KEY + error reporting. Byt från Sandbox vid prodsättning
+require('config.php.inc'); //innehåller API-KEY + error reporting. Byt från Sandbox vid prodsättning
 
 session_start();
 if (!isset($_SESSION['token']))
