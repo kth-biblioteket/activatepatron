@@ -86,14 +86,17 @@ if (!empty($_GET["language"])) {
 			$formusernameplaceholder = '';
 			$formagreementtext = "Jag godkänner KTH Bibliotekets <a target='_blank' href='https://www.kth.se/biblioteket/anvanda-biblioteket/anvandarvillkor-1.854843'>användarvillkor.</a>";
 			$formsendordertext = 'Skicka beställningen';
-			$activationtext = '<p>Ditt konto är nu aktiverat! Låna böcker med ditt svenska personnummer och din valda PIN-kod</p>
-							<p>Om du inte har ett svenskt personnummer så behöver du skaffa ett lånekort i informationsdisken. Ta med dig ditt ID. Efter det kan du låna genom att använda våra låneutomater.</p>
-							<p>Läs mer om hur du <a href="https://www.kth.se/biblioteket/anvanda-biblioteket/lana-och-bestalla/lana-och-bestalla-1.853035">lånar och beställer</a></p>
-							<p>Välkommen till KTH Biblioteket!</p>';
+
+			$activationtext = '<p>Ditt konto är aktiverat! Låna böcker med ditt svenska personnummer eller det tillfälliga T-personnumret och din valda PIN-kod i våra självserviceautomater.</p>
+								<p>Observera, om du är student vid Campus Södertälje och saknar svenskt personnummmer behöver du hämta ut ett lånekort i informationsdisken.</p>
+								<p>Läs mer om hur du <a href="https://www.kth.se/biblioteket/anvanda-biblioteket/lana-och-bestalla/lana-och-bestalla-1.853035">lånar och beställer</a></p>
+								<p>Välkommen till KTH Biblioteket!</p>';
+
 			$activatedtext = '<p>Ditt konto är redan aktiverat! Låna böcker med ditt svenska personnummer och din valda PIN-kod</p>
-						<p>Om du inte har ett svenskt personnummer så behöver du skaffa ett lånekort i informationsdisken. Ta med dig ditt ID. Efter det kan du låna genom att använda våra låneutomater.</p>
-						<p>Läs mer om hur du <a href="https://www.kth.se/biblioteket/anvanda-biblioteket/lana-och-bestalla/lana-och-bestalla-1.853035">lånar och beställer.</a></p>
-						<p>Välkommen till KTH Biblioteket!</p>';
+								<p>Om du inte har ett svenskt personnummer så behöver du skaffa ett lånekort i informationsdisken. Ta med dig ditt ID. Efter det kan du låna genom att använda våra låneutomater.</p>
+								<p>Läs mer om hur du <a href="https://www.kth.se/biblioteket/anvanda-biblioteket/lana-och-bestalla/lana-och-bestalla-1.853035">lånar och beställer.</a></p>
+								<p>Välkommen till KTH Biblioteket!</p>';
+
 			$pintext = 'PIN (xxxx) <i>(välj din egen fyrasiffriga PIN-kod för att låna i självbetjäningsautomaterna)</i>';
 		} else {
 			$formorderheader = "Activate your library account";
@@ -102,13 +105,17 @@ if (!empty($_GET["language"])) {
 			$formusernameplaceholder = '';
 			$formagreementtext = "I accept the KTH Library <a target='_blank' href='https://www.kth.se/en/biblioteket/anvanda-biblioteket/anvandarvillkor-1.854843'>terms of use</a>";
 			$formsendordertext = 'Send request';
-			$activationtext = '<p>Your account is now activated! Borrow books with your Swedish personal identity number and your chosen PIN code.</p>
-								<p>If you don’t have a Swedish personal identity number you need to obtain a library card at the information desk. Bring your ID. After that you can borrow using our self service machines.</p>
-								<p>Read more about how to <a href="https://www.kth.se/en/biblioteket/anvanda-biblioteket/lana-och-bestalla/lana-och-bestalla-1.853035">borrow and request</a></p>';
-			$activatedtext = '<p>Your account is already activated! Borrow books with your Swedish personal identity number and your chosen PIN code.</p>
-							<p>If you don’t have a Swedish personal identity number you need to obtain a library card at the information desk. Bring your ID. After that you can borrow using our self service machines.</p>
-							<p>Read more about how to <a href="https://www.kth.se/en/biblioteket/anvanda-biblioteket/lana-och-bestalla/lana-och-bestalla-1.853035">borrow and request.</a></p>
-							<p>Welcome to KTH Library!</p>';
+			
+			$activationtext = '<p>Your account is activated! Borrow books using your Swedish personal identification number or the temporary T-personal identification number and your chosen PIN code at our self-service machines.</p>
+								<p>Please note that if you are a student at Campus Södertälje and do not have a Swedish personal identification number, you need to pick up a library card at the information desk.</p>
+								<p>Read more about how to <a href="https://www.kth.se/en/biblioteket/anvanda-biblioteket/lana-och-bestalla/lana-och-bestalla-1.853035">borrow and request</a></p>
+								<p>Welcome to KTH Library!</p>';
+
+			$activatedtext = '<p>Your account is already activated!  Borrow books using your Swedish personal identification number or the temporary T-personal identification number and your chosen PIN code at our self-service machines.</p>
+								<p>Please note that if you are a student at Campus Södertälje and do not have a Swedish personal identification number, you need to pick up a library card at the information desk.</p>
+								<p>Read more about how to <a href="https://www.kth.se/en/biblioteket/anvanda-biblioteket/lana-och-bestalla/lana-och-bestalla-1.853035">borrow and request.</a></p>
+								<p>Welcome to KTH Library!</p>';
+
 			$pintext = 'PIN (xxxx) <i>(choose your own four digit code to borrow in the self service machines)</i>';
 		}
 ?>
