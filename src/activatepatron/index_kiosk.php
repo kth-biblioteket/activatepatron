@@ -29,8 +29,8 @@ if (!empty($_GET["lang"])) {
 		<!-- KTH Styles -->
 		<!--link href="<?php echo $kth_www?>/css/kth-22cebcf8c708b27ad9c875474470c18b.css" rel="stylesheet"-->
     	<link type="text/css" href="kthstyle/kth.css" rel="stylesheet" />
-		<link type="text/css" href="css/activatepatron.css?version=1" rel="stylesheet" />
-		<link type="text/css" href="css/activatepatron_kiosk.css?version=1" rel="stylesheet" />
+		<link type="text/css" href="css/activatepatron.css?version=1.2" rel="stylesheet" />
+		<link type="text/css" href="css/activatepatron_kiosk.css?version=1.2" rel="stylesheet" />
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="js/jquery.placeholder.js"></script>
