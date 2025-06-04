@@ -620,7 +620,6 @@ if(!empty($_REQUEST['auth'])) {
 																<div><a href=\"https://kth-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=46KTH_VU1&lang=sv_SE\">Sök material i Primo</a></div>
 																<div><a href=\"https://www.kth.se/kthb/sokverktyg/databaser-och-soktjanster-1.546373\">Våra databaser och söktjänster</a></div>
 																</br>
-																<div>KTH Biblioteket finns på tre platser, Huvudbiblioteket på KTH Campus samt i Kista och Södertälje.</div>
 																<div><a href=\"https://www.kth.se/en/biblioteket/anvanda-biblioteket/oppettider-kontakt\">Se våra öppettider</a></div>
 																</br>
 																<div>På biblioteken finns gott om studieplatser, såväl tysta läsplatser som datorer och utrymmen där man får sitta och prata. Du kan även boka något av våra grupprum.</div>
@@ -651,7 +650,6 @@ if(!empty($_REQUEST['auth'])) {
 																<div><a href=\"https://kth-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=46KTH_VU1&lang=en_US\">Search in Primo</a></div>
 																<div><a href=\"https://www.kth.se/en/biblioteket/sokverktyg/databaser-och-soktjanster-1.546373\">Databases and search tools</a></div>
 																</br>
-																<div>KTH Library consists of three libraries, the Main library and the branch libraries in Kista and Södertälje.</div>
 																<div><a href=\"https://www.kth.se/en/biblioteket/anvanda-biblioteket/oppettider-kontakt\">See our opening hours</a></div>
 																</br>
 																<div>In the library you’ll find plenty of study spaces, both quiet study areas as well as computers and spaces where talking is allowed. You can also book a group study room.</div>

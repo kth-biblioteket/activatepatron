@@ -94,12 +94,10 @@ if (!empty($_GET["language"])) {
 			$formsendordertext = 'Skicka beställningen';
 
 			$activationtext = '<p>Ditt konto är aktiverat! Låna böcker med ditt svenska personnummer eller det tillfälliga T-personnumret och din valda PIN-kod i våra självserviceautomater.</p>
-								<p>Observera, om du är student vid Campus Södertälje och saknar svenskt personnummmer behöver du hämta ut ett lånekort i informationsdisken.</p>
 								<p>Läs mer om hur du <a href="https://www.kth.se/biblioteket/anvanda-biblioteket/lana-och-bestalla/lana-och-bestalla-1.853035">lånar och beställer</a></p>
 								<p>Välkommen till KTH Biblioteket!</p>';
 
 			$activatedtext = '<p>Ditt konto är redan aktiverat! Låna böcker med ditt svenska personnummer eller det tillfälliga T-personnumret och din valda PIN-kod i våra självserviceautomater.</p>
-								<p>Observera, om du är student vid Campus Södertälje och saknar svenskt personnummmer behöver du hämta ut ett lånekort i informationsdisken.</p>
 								<p>Läs mer om hur du <a href="https://www.kth.se/biblioteket/anvanda-biblioteket/lana-och-bestalla/lana-och-bestalla-1.853035">lånar och beställer.</a></p>
 								<p>Välkommen till KTH Biblioteket!</p>';
 
@@ -113,12 +111,10 @@ if (!empty($_GET["language"])) {
 			$formsendordertext = 'Send request';
 
 			$activationtext = '<p>Your account is activated! Borrow books using your Swedish personal identification number or the temporary T-personal identification number and your chosen PIN code at our self-service machines.</p>
-								<p>Please note that if you are a student at Campus Södertälje and do not have a Swedish personal identification number, you need to pick up a library card at the information desk.</p>
 								<p>Read more about how to <a href="https://www.kth.se/en/biblioteket/anvanda-biblioteket/lana-och-bestalla/lana-och-bestalla-1.853035">borrow and request</a></p>
 								<p>Welcome to KTH Library!</p>';
 
 			$activatedtext = '<p>Your account is already activated!  Borrow books using your Swedish personal identification number or the temporary T-personal identification number and your chosen PIN code at our self-service machines.</p>
-								<p>Please note that if you are a student at Campus Södertälje and do not have a Swedish personal identification number, you need to pick up a library card at the information desk.</p>
 								<p>Read more about how to <a href="https://www.kth.se/en/biblioteket/anvanda-biblioteket/lana-och-bestalla/lana-och-bestalla-1.853035">borrow and request.</a></p>
 								<p>Welcome to KTH Library!</p>';
 

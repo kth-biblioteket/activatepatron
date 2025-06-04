@@ -92,11 +92,9 @@ if (!empty($_GET["lang"])) {
 			$formsendordertext = 'Skicka beställningen';
 
 			$activationtext = '<p>Ditt konto är aktiverat! Låna böcker med ditt svenska personnummer eller det tillfälliga T-personnumret och din valda PIN-kod i våra självserviceautomater.</p>
-								<p>Observera, om du är student vid Campus Södertälje och saknar svenskt personnummmer behöver du hämta ut ett lånekort i informationsdisken.</p>
 								<p>Välkommen till KTH Biblioteket!</p>';
 
 			$activatedtext = '<p>Ditt konto är redan aktiverat! Låna böcker med ditt svenska personnummer eller det tillfälliga T-personnumret och din valda PIN-kod i våra självserviceautomater.</p>
-								<p>Observera, om du är student vid Campus Södertälje och saknar svenskt personnummmer behöver du hämta ut ett lånekort i informationsdisken.</p>
 								<p>Välkommen till KTH Biblioteket!</p>';
 
 			$pintext = 'PIN (xxxx) <i>(välj din egen fyrasiffriga PIN-kod för att låna i självbetjäningsautomaterna)</i>';
@@ -110,11 +108,9 @@ if (!empty($_GET["lang"])) {
 			$formsendordertext = 'Send request';
 
 			$activationtext = '<p>Your account is activated! Borrow books using your Swedish personal identification number or the temporary T-personal identification number and your chosen PIN code at our self-service machines.</p>
-								<p>Please note that if you are a student at Campus Södertälje and do not have a Swedish personal identification number, you need to pick up a library card at the information desk.</p>
 								<p>Welcome to KTH Library!</p>';
 
 			$activatedtext = '<p>Your account is already activated!  Borrow books using your Swedish personal identification number or the temporary T-personal identification number and your chosen PIN code at our self-service machines.</p>
-								<p>Please note that if you are a student at Campus Södertälje and do not have a Swedish personal identification number, you need to pick up a library card at the information desk.</p>
 								<p>Welcome to KTH Library!</p>';
 								
 			$pintext = 'PIN (xxxx) <i>(choose your own four digit code to borrow in the self service machines)</i>';
