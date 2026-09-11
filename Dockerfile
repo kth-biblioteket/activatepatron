@@ -1,4 +1,4 @@
-FROM php:7.3-apache
+FROM php:8.2-apache
 
 RUN a2enmod rewrite && \
 cp $PHP_INI_DIR/php.ini-development $PHP_INI_DIR/php.ini && \
