@@ -41,14 +41,16 @@ try {
 	$oidc->setVerifyHost(false);
 	$oidc->setVerifyPeer(false);
 
-	//redirect tillbaks till denna sida!
-	if (!empty($_GET["language"])) {
-		$language = $_GET["language"];
-	} else {
-		$language = "english";
+	// redirect_uri måste vara exakt den som är registrerad hos ADFS, så inga parametrar här.
+	// language sparas i sessionen vid första anropet och läses därifrån vid retur från ADFS.
+	if (!isset($_GET["code"])) {
+		$_SESSION['login_language'] = (isset($_GET["language"]) && $_GET["language"] === "swedish") ? "swedish" : "english";
 	}
-    $oidc->setRedirectURL(html_entity_decode("https://" . $_SERVER['HTTP_HOST'] . "/activatepatron/login.php?language=$language"));
-	
+	$language = isset($_SESSION['login_language']) ? $_SESSION['login_language'] : "english";
+
+	//redirect tillbaks till denna sida!
+	$oidc->setRedirectURL("https://" . $_SERVER['HTTP_HOST'] . "/activatepatron/login.php");
+
 	//Skickar vidare till login på KTH om användaren inte redan är inloggad
 	$oidc->authenticate();
 	//Vid redan inloggad exekveras koden nedan 
